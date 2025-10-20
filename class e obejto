@@ -1,0 +1,25 @@
+#classes-> representação
+#atributos -> variáveis
+#métodos -> funções
+
+#carro
+#modelo -> ferrari
+#ano ->2020
+#estado -> seminovo
+
+# modelo, ano , estado -> atributos
+
+class carro(object):
+    estado = 'novo'
+    
+fusca = carro()
+fusca.estado = 'novo'
+
+ferrari = carro()
+ferrari.estado = 'usado'
+print(fusca.estado) # valor doa tributo do ob
+print(ferrari.estado)#valor do atributo estado do
+print(type(fusca))# representação do  objeto fusca
+print (ferrari) # representação do objeto ferrari
+
+
