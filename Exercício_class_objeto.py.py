@@ -1,12 +1,12 @@
-# Exercícios de POO em Python
+
 
 # 1
 class Pessoa:
     def __init__(self, nome):
         self.nome = nome
 
-p1 = Pessoa("Maria")
-p2 = Pessoa("João")
+p1 = Pessoa("fernanda")
+p2 = Pessoa("william ")
 print(p1.nome)
 print(p2.nome)
 
@@ -16,8 +16,8 @@ class Animal:
     def __init__(self, tipo):
         self.tipo = tipo
 
-a1 = Animal("Cachorro")
-a2 = Animal("Gato")
+a1 = Animal("lagartixa")
+a2 = Animal("rato")
 print(a1.tipo)
 print(a2.tipo)
 
@@ -28,24 +28,24 @@ class Carro:
         self.nome = nome
         self.estado = estado
 
-fusca = Carro("Fusca")
-ferrari = Carro("Ferrari", "usado")
+fusca = Carro("porshe")
+ferrari = Carro("tesla", "usado")
 
-print(fusca.estado)
-print(ferrari.estado)
+print(porshe.estado)
+print(tesla.estado)
 
 
-# 4
+# 4 in
 class Carro:
     def __init__(self, nome, cor):
         self.nome = nome
         self.cor = cor
 
-fusca = Carro("Fusca", "azul")
-ferrari = Carro("Ferrari", "vermelha")
+fusca = Carro("fiat", "azul")
+ferrari = Carro("volkswagem", "vermelha")
 
-print(fusca.nome, "-", fusca.cor)
-print(ferrari.nome, "-", ferrari.cor)
+print(fusca.nome, "-", fiat.cor)
+print(ferrari.nome, "-", volkswagem.cor)
 
 
 # 5
